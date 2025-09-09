@@ -182,9 +182,4 @@ minikube delete
 
 ---
 
-## What you learned
-- GitOps flow (Git → Argo CD → Cluster)
-- CI with GitHub Actions
-- Containerized app on Kubernetes with Helm
-- Basic monitoring with Prometheus/Grafana
-- Incident triage and rollback
+
