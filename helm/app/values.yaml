@@ -1,0 +1,19 @@
+replicaCount: 1
+
+image:
+  repository: demo/app
+  tag: local
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+resources: {}
+ingress:
+  enabled: false
+
+# ServiceMonitor for Prometheus
+serviceMonitor:
+  enabled: true
+  interval: 15s
